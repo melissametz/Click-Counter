@@ -7,9 +7,29 @@
 
 <body>
   <div id="app">
-    TODO -- add your markup in index.html
+    <h1 class="counter">0</h1>
+    <button class="increment">increment</button>
+    <button class="decrement">decrement</button>
   </div>
-  <script src="src/index.js"></script>
-</body>
+  <script>
+    const display = document.querySelector(".counter")
+    const incBtn = document.querySelector(".increment")
+    const decBtn = document.querySelector(".decrement")
 
+    let count = 0;
+
+    incBtn.addEventListener("click", increment)
+    decBtn.addEventListener("click", decrement)
+
+    function increment() {
+      count = count + 1;
+      display.innerText = count;
+    }
+
+    function decrement() {
+      count--;
+      display.innerText = count;
+    }
+  </script>
+</body>
 </html>
