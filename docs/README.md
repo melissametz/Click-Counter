@@ -17,4 +17,4 @@ Your code should render the following HTML elements:
 
 Here's a demo of the working application:
 
-![Screenshot of Counter Image](counter.gif)
+![Screenshot of Counter Image](https://github.com/melissametz/Click-Counter/blob/main/screenshots/counter.gif)
