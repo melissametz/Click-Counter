@@ -1,7 +1,20 @@
-### Execution Environment
-The code for this project is ran using Node 10, with Jest as the test framework.  [Puppeteer](https://github.com/smooth-code/jest-puppeteer) is provided to allow tests to be ran against HTML files. 
+# Click Counter
 
-All HTML files and assets are bundled by the [Parcel JS bundler](https://parceljs.org/). HTML, JS and CSS are allowed. SCSS, LESS, Stylus are not supported. 
+### Task
 
-### Customization
-You are not able to customize the environment any further than what comes already pre-loaded.  
+Your task is to write vanilla HTML and JS code that will display the current value of an integer number counter.
+
+- The counter should start at 0.
+- There should be a button to add 1 to the counter's value.
+- There should be a button to subtract 1 from the counter's value.
+- The counter value display should be rendered when the value changes.
+
+Your code should render the following HTML elements:
+
+- The counter display element with a class of `.counter`, containing the counter value.
+- An increment button with a class of `.increment`.
+- A decrement button with a class of `.decrement`.
+
+Here's a demo of the working application:
+
+![Screenshot of Counter Image](counter.gif)
